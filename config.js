@@ -26,6 +26,10 @@ System.config({
     "lib/runner.js": [
       "github:components/jquery@2.1.4.js",
       "lib/editor.js"
+    ],
+    "tests.js": [
+      "lib/editor.js",
+      "github:components/jquery@2.1.4.js"
     ]
   }
 });
